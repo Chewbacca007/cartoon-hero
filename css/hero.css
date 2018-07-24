@@ -1,0 +1,22 @@
+html, body{
+	font-family: Arial, sans-serif;
+}
+header{
+	background-color: #996633;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border: 18px solid #331a00;
+}
+/*<head>
+	<title>Chewbacca</title>
+	<link rel="stylesheet" type="text/css" href="css/hero.css">
+</head>*/
