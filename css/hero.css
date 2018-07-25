@@ -1,5 +1,6 @@
 html, body{
 	font-family: Arial, sans-serif;
+	margin: 0;
 }
 header{
 	background-color: #996633;
@@ -16,7 +17,39 @@ header img{
 	width: 300px;
 	border: 18px solid #331a00;
 }
-/*<head>
-	<title>Chewbacca</title>
-	<link rel="stylesheet" type="text/css" href="css/hero.css">
-</head>*/
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+img.big-image{
+	max-width: 100%;
+}
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: brown;
+	text-decoration: none;
+}
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #e6e6e6
+}
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
